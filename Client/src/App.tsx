@@ -2,7 +2,7 @@ import "./styles/_reset.scss";
 import "./styles/_container.scss";
 import React from "react";
 import { Flex, Layout } from "antd";
-import { Header } from "./components/Header/Header";
+import Header from "./components/Header/Header";
 
 const { Footer, Sider, Content } = Layout;
 
