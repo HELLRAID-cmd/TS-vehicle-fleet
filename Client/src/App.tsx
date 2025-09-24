@@ -2,7 +2,7 @@ import "./styles/_reset.scss";
 import "./styles/_container.scss";
 import React from "react";
 import { Flex, Layout } from "antd";
-import Header from "./components/Header/Header";
+import HeaderComponents from "./components/Header/HeaderComponents";
 
 const { Footer, Sider, Content } = Layout;
 
@@ -46,7 +46,7 @@ const App: React.FC = () => {
   return (
     <Flex>
       <Layout style={layoutStyle}>
-        <Header />
+        <HeaderComponents />
         <Layout>
           <Sider width="25%" style={siderStyle}>
             Sider
