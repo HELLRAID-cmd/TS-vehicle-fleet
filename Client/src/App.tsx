@@ -1,11 +1,12 @@
 import "./styles/_reset.scss";
 import "./styles/_container.scss";
-import { CarPark } from "./components/CarPark/CarPark";
+import { Layout } from "antd";
 
 function App() {
   return (
     <>
-      <CarPark />
+      <Layout>
+      </Layout>
     </>
   );
 }
