@@ -1,5 +1,7 @@
-export const Header = () => {
+const Header = () => {
   return (
     <header className="header">Автопарк TS: тренировка со встроенными функциями</header>
   )
 }
+
+export default Header;
