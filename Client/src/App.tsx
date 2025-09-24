@@ -1,11 +1,11 @@
 import "./styles/_reset.scss";
 import "./styles/_container.scss";
-import { CardPark } from "./components/CardPark/CardPark";
+import { CarPark } from "./components/CarPark/CarPark";
 
 function App() {
   return (
     <>
-      <CardPark />
+      <CarPark />
     </>
   );
 }
