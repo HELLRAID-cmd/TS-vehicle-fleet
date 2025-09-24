@@ -2,17 +2,18 @@ import "./styles/_reset.scss";
 import "./styles/_container.scss";
 import React from "react";
 import { Flex, Layout } from "antd";
+import { Header } from "./components/Header/Header";
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Footer, Sider, Content } = Layout;
 
-const headerStyle: React.CSSProperties = {
-  textAlign: "center",
-  color: "#fff",
-  height: 64,
-  paddingInline: 48,
-  lineHeight: "64px",
-  backgroundColor: "#4096ff",
-};
+// const headerStyle: React.CSSProperties = {
+//   textAlign: "center",
+//   color: "#fff",
+//   height: 64,
+//   paddingInline: 48,
+//   lineHeight: "64px",
+//   backgroundColor: "#4096ff",
+// };
 
 const contentStyle: React.CSSProperties = {
   textAlign: "center",
@@ -45,7 +46,7 @@ const App: React.FC = () => {
   return (
     <Flex>
       <Layout style={layoutStyle}>
-        <Header style={headerStyle}>Header</Header>
+        <Header />
         <Layout>
           <Sider width="25%" style={siderStyle}>
             Sider
