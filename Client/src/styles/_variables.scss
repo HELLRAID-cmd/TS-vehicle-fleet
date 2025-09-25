@@ -1,15 +1,19 @@
 :root {
   // Colors
+  --c-primary: #4caf50;
+  --c-primary-hover: #388e3c;
+  --c-secondary: #66bb6a;
+  --c-secondary-hover: #2e7d32;
   --c-white: #ffffff;
-  --c-white-50: rgb(255, 255, 255, 0.5);
-  --c-white-20: rgba(255, 255, 255, 0.2);
-  --c-black: #000000;
-  --c-jaguar-dark: #2c2a41;
-  --c-sun-yellow: #FFF200;
-  --c-light-gray: #e6e6e6;
-  --c-red: #ff0000;
-  --c-gray: #c4c4c4;
-  --c-purple: #9143a5;
+  --c-disabled: #c8e6c9;
+
+  --c-bg-content: #f5fdf7;
+  --c-bg-hover: #e8f5e9;
+
+  --c-text: #1b1b1b;
+  --c-text-secondary: #4e6e50;
+
+  --c-header: #2e7d32;
 
   // Typography
   --ff-main: "PTSans", "Arial", sans-serif;
@@ -57,7 +61,6 @@
 
   //Margin
   --m-btm-110: 110px;
-
 }
 
 // Dealy
