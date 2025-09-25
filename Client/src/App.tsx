@@ -3,6 +3,7 @@ import "./styles/_container.scss";
 import React from "react";
 import { Flex, Layout } from "antd";
 import HeaderComponents from "./components/Header/HeaderComponents";
+import { Filter } from "./components/Filter/Filter";
 
 const { Footer, Sider, Content } = Layout;
 
@@ -15,10 +16,7 @@ const contentStyle: React.CSSProperties = {
 };
 
 const siderStyle: React.CSSProperties = {
-  textAlign: "center",
-  lineHeight: "120px",
-  color: "#fff",
-  backgroundColor: "#1677ff",
+  backgroundColor: "#f5fdf7",
 };
 
 const footerStyle: React.CSSProperties = {
@@ -40,7 +38,7 @@ const App: React.FC = () => {
         <HeaderComponents />
         <Layout>
           <Sider width="25%" style={siderStyle}>
-            Sider
+            <Filter />
           </Sider>
           <Content style={contentStyle}>Content</Content>
         </Layout>
